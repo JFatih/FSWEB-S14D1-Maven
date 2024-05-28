@@ -45,4 +45,13 @@ public class Employee {
         System.out.println("Employee work");
         setSalary(salary);
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
